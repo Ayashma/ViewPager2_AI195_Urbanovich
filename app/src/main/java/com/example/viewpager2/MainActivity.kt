@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    class MyAdapter(fragment: AppCompatActivity) : FragmentStateAdapter(fragment) {
+    //Адаптер
+    class MyAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activity) {
 
         override fun getItemCount(): Int = 3
 
